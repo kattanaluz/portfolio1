@@ -12,7 +12,7 @@ function LandDisplay() {
           </div>
           <div className={css.textFirstRect}>
             <p>&lt;</p>
-            <p>Hello, my name is Kattana </p>
+            <p>Hello, my name is Kattana and</p>
             <p>I am Brazilian based in London</p>
             <p> /&gt;</p>
           </div>
@@ -28,8 +28,10 @@ function LandDisplay() {
           <div className={css.textSecondRect}>
             <p>&lt;</p>
             <p>I am a former lawyer training </p>
-            <p>to become a Web Developer</p>
-            <p> /&gt;</p>
+            <p>
+              to become a Web Developer<span className={css.blink}>|</span>
+            </p>
+            <p>/&gt;</p>
           </div>
         </div>
       </div>

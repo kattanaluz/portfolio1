@@ -6,7 +6,7 @@
   height: 320px;
   left: 15%;
   top: 15%;
-  background: #ffffff;
+  background: #051727;
   border: 0.5px solid #020202;
   box-sizing: border-box;
   border-radius: 15px;
@@ -19,11 +19,11 @@
   height: 320px;
   left: 47%;
   top: 35%;
-  background: #ffffff;
+  background: #051727;
   border: 0.5px solid #000000;
   box-sizing: border-box;
   border-radius: 15px;
-  box-shadow: 0px 5px 20px 0px #5a5a5a;
+  box-shadow: 20px 5px 30px -5px #5a5a5a;
 }
 
 .firstTopRectangle {
@@ -131,8 +131,30 @@
   margin: 80px 70px 20px 35px;
 }
 
-p {
+.textFirstRect p {
   font-size: 120%;
   font-weight: 400;
   font-family: "Roboto Mono", monospace;
+  color: white;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.textSecondRect p {
+  font-size: 120%;
+  font-weight: 400;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }

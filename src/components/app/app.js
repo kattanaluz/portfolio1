@@ -1,10 +1,11 @@
 import "./app.css";
 import LandDisplay from "../landDisplay";
+import Nav from "../nav";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+      <Nav />
       <LandDisplay />
     </div>
   );
