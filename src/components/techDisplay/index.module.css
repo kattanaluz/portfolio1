@@ -1,0 +1,35 @@
+h2 {
+  margin-top: 630px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.techDisplayWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.textDiv {
+  width: 50%;
+  color: 051727;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.imgDiv {
+  width: 50%;
+}
+
+img {
+  width: 420px;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 17px;
+  font-weight: 350;
+}
