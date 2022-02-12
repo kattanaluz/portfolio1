@@ -1,9 +1,11 @@
 import "./app.css";
+import LandDisplay from "../landDisplay";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello world! </p>
+      <p>Hello</p>
+      <LandDisplay />
     </div>
   );
 }
