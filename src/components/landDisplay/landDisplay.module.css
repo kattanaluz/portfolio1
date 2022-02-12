@@ -6,7 +6,7 @@
   height: 320px;
   left: 15%;
   top: 15%;
-  background: #051727;
+  background: #202e3d;
   border: 0.5px solid #020202;
   box-sizing: border-box;
   border-radius: 15px;
@@ -19,7 +19,7 @@
   height: 320px;
   left: 47%;
   top: 35%;
-  background: #051727;
+  background: #202e3d;
   border: 0.5px solid #000000;
   box-sizing: border-box;
   border-radius: 15px;
@@ -33,7 +33,7 @@
   left: 0%;
   top: 0%;
   border-bottom: 0.5px solid #020202;
-  background: #f3dcfc;
+  background: #ced2f8;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -44,7 +44,7 @@
   left: 0%;
   top: 0%;
   border-bottom: 0.5px solid #020202;
-  background: #f3dcfc;
+  background: #ced2f8;
   box-sizing: border-box;
   border-radius: 15px 15px 0px 0px;
 }
@@ -55,7 +55,7 @@
   height: 14px;
   left: 5px;
   top: 9px;
-  background: #f3dcfc;
+  background: #d5f8ce;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -67,7 +67,7 @@
   height: 14px;
   left: 20px;
   top: 9px;
-  background: #f3dcfc;
+  background: #f4f8ce;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -79,7 +79,7 @@
   height: 14px;
   left: 35px;
   top: 9px;
-  background: #f3dcfc;
+  background: #f5d5d5;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -91,7 +91,7 @@
   height: 14px;
   left: 5px;
   top: 9px;
-  background: #f3dcfc;
+  background: #d5f8ce;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -103,7 +103,7 @@
   height: 14px;
   left: 20px;
   top: 9px;
-  background: #f3dcfc;
+  background: #f4f8ce;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -115,7 +115,7 @@
   height: 14px;
   left: 35px;
   top: 9px;
-  background: #f3dcfc;
+  background: #f5d5d5;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 90%;
@@ -135,13 +135,13 @@
   font-size: 120%;
   font-weight: 400;
   font-family: "Roboto Mono", monospace;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .textSecondRect p {
   font-size: 120%;
   font-weight: 400;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Roboto Mono", monospace;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
