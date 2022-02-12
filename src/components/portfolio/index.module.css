@@ -1,0 +1,28 @@
+.portfolioWrapper {
+  margin-top: -200px;
+  margin-bottom: 200px;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.projectsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+img {
+  border-radius: 10px;
+  width: 450px;
+}
+
+img:hover {
+  width: 453px;
+}

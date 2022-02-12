@@ -2,6 +2,7 @@ import "./app.css";
 import LandDisplay from "../landDisplay";
 import Nav from "../nav";
 import TechDisplay from "../techDisplay";
+import Portfolio from "../portfolio";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <LandDisplay />
       <TechDisplay />
+      <Portfolio />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 h2 {
-  margin-top: 630px;
+  margin-top: 650px;
   font-family: "Roboto Mono", monospace;
   text-align: center;
   padding: 5px;
@@ -10,11 +10,11 @@ h2 {
 .techDisplayWrapper {
   display: flex;
   flex-direction: row;
+  height: 0px;
 }
 
 .textDiv {
   width: 50%;
-  color: 051727;
   text-align: center;
   margin-left: 5%;
 }
