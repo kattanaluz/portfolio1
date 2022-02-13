@@ -1,10 +1,12 @@
-h2 {
-  margin-top: 650px;
+.h2Header {
+  margin-top: 150px;
   font-family: "Roboto Mono", monospace;
   text-align: center;
   padding: 5px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: 4px underline rgb(238, 252, 46);
+  font-size: 30px;
 }
 
 .techDisplayWrapper {
@@ -15,17 +17,18 @@ h2 {
 
 .textDiv {
   width: 50%;
-  text-align: center;
+  text-align: justify;
   margin-left: 5%;
 }
 
 .imgDiv {
-  width: 50%;
+  width: 10%;
 }
 
-img {
-  width: 420px;
-  margin-top: 0;
+.imgTag {
+  width: 400px;
+  margin-left: 50px;
+  border: none;
 }
 
 p {

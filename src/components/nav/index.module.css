@@ -3,8 +3,10 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 5%;
-  margin: 0.8% 3% 0 0;
-  padding: 0.5%;
+  margin: 0 2% 0 2%;
+  padding: 1%;
+  /*   color: black;
+  border-bottom: 3px solid black; */
 }
 
 a {
@@ -13,5 +15,5 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: 5px underline rgb(238, 252, 46);
 }

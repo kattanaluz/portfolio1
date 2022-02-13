@@ -3,6 +3,9 @@ function Nav() {
   return (
     <nav className={css.navBar}>
       <span>
+        <a>about</a>
+      </span>
+      <span>
         <a>tech</a>
       </span>
       <span>

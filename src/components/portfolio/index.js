@@ -5,7 +5,7 @@ function Portfolio() {
     <div className={css.portfolioWrapper}>
       <h2>portfolio</h2>
       <div className={css.projectsDiv}>
-        <div>
+        <div className={css.drinkApp}>
           <a href="https://stoic-elion-211222.netlify.app/" target="_blank">
             <img src={drinkApp} alt="drink website" />
           </a>

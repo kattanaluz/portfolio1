@@ -1,10 +1,10 @@
-import image from "./girl_and_laptop.png";
+import image from "./girl.png";
 import css from "./index.module.css";
 
 function TechDisplay() {
   return (
     <div>
-      <h2>tech information</h2>
+      <h2 className={css.h2Header}>tech information</h2>
       <div className={css.techDisplayWrapper}>
         <div className={css.textDiv}>
           <p>
@@ -24,7 +24,7 @@ function TechDisplay() {
           </p>
         </div>
         <div className={css.imgDiv}>
-          <img src={image} alt="girl with a laptop" />
+          <img className={css.imgTag} src={image} alt="girl with a laptop" />
         </div>
       </div>
     </div>
