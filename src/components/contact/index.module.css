@@ -48,17 +48,28 @@ input {
   text-align: start;
   padding: 10px;
   border: 1px solid black;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 input:focus {
   outline-color: rgb(238, 252, 46);
 }
 
-.inputMessage {
+textarea {
+  width: 500px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  text-align: start;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 15px;
+  resize: vertical;
   min-height: 200px;
 }
 
+textarea:focus {
+  outline-color: rgb(238, 252, 46);
+}
 .inputButton {
   width: 100px;
   text-align: center;

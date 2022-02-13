@@ -29,8 +29,15 @@ function Contact() {
               type="text"
               name="comment"
               required
+              placeholder="type your message"
             ></textarea>
             <br />
+            <input type="hidden" name="_captcha" value="false"></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://kattanaluz.github.io/portfolio1/"
+            ></input>
             <input
               className={css.inputButton}
               type="submit"
