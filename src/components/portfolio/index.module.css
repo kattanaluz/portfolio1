@@ -19,17 +19,30 @@ h2 {
 
 .projectsDiv {
   display: flex;
-  flex-direction: row;
-  margin-left: 10%;
+  flex-direction: column;
 }
 
-img {
-  border: 1px solid rgb(0, 0, 0);
+.drinkApp {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: rgb(255, 255, 255);
+}
+
+.drinkAppImg {
+  border: 0.5px solid rgb(34, 34, 34);
   border-radius: 2px;
   width: 450px;
 }
 
-.drinkApp {
-  padding: 2%;
-  background-color: rgb(255, 255, 255);
+.drinkAppText {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
 }

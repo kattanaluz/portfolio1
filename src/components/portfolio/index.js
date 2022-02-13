@@ -1,5 +1,6 @@
 import css from "./index.module.css";
 import drinkApp from "./drink_app.png";
+
 function Portfolio() {
   return (
     <div className={css.portfolioWrapper}>
@@ -7,9 +8,24 @@ function Portfolio() {
       <div className={css.projectsDiv}>
         <div className={css.drinkApp}>
           <a href="https://stoic-elion-211222.netlify.app/" target="_blank">
-            <img src={drinkApp} alt="drink website" />
+            <img
+              className={css.drinkAppImg}
+              src={drinkApp}
+              alt="drink website"
+            />
           </a>
-          <p>Website to search for drink recipes</p>
+          <div className={css.drinkAppText}>
+            <h3>Website to search for drink recipes</h3>
+            <p>
+              <p>
+                The intensive and immersive sixteen-week programming bootcamp
+                focuses on exposing the trainees to a range of different
+                industry best practices and concepts, such as test driven
+                development, agile working methodologies, pair programming, and
+                creative problem solving.
+              </p>
+            </p>
+          </div>
         </div>
       </div>
     </div>

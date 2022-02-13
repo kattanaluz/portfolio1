@@ -1,0 +1,20 @@
+.contactWrapper {
+  background-color: black;
+  height: 300px;
+}
+
+.contactWrapper h2 {
+  color: white;
+  text-decoration: 4px underline rgb(238, 252, 46);
+  padding: 15px;
+}
+
+.contactText {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.contactWrapper p {
+  color: white;
+  font-size: 15px;
+}
