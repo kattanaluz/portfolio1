@@ -96,7 +96,6 @@ function Contact() {
         back to the top
       </a>
       <p className={css.designAuthor}>
-        {" "}
         CREATED AND DESIGNED BY KATTANA LUZ | 2022
       </p>
     </div>
