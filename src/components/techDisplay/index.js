@@ -3,7 +3,7 @@ import css from "./index.module.css";
 
 function TechDisplay() {
   return (
-    <div>
+    <div id="tech">
       <h2 className={css.h2Header}>tech information</h2>
       <div className={css.techDisplayWrapper}>
         <div className={css.textDiv}>

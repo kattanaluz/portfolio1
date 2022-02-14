@@ -1,18 +1,18 @@
 import css from "./index.module.css";
 function Nav() {
   return (
-    <nav className={css.navBar}>
+    <nav className={css.navBar} id="top">
       <span>
-        <a>about</a>
+        <a href="#about">about</a>
       </span>
       <span>
-        <a>tech</a>
+        <a href="#tech">tech</a>
       </span>
       <span>
-        <a>portfolio</a>
+        <a href="#portfolio">portfolio</a>
       </span>
       <span>
-        <a>contact</a>
+        <a href="#contact">contact</a>
       </span>
     </nav>
   );

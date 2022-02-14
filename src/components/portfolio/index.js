@@ -3,7 +3,7 @@ import drinkApp from "./drink_app.png";
 
 function Portfolio() {
   return (
-    <div className={css.portfolioWrapper}>
+    <div className={css.portfolioWrapper} id="portfolio">
       <h2>portfolio</h2>
       <div className={css.projectsDiv}>
         <div className={css.drinkApp}>

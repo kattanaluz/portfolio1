@@ -1,5 +1,5 @@
 .contact {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.897);
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 10px solid rgb(238, 252, 46);
@@ -9,6 +9,7 @@
 .contactWrapper {
   display: flex;
   flex-direction: row;
+  margin-bottom: 50px;
 }
 
 .contactText {
@@ -32,7 +33,6 @@
 .formWrapper {
   width: 50%;
   margin-left: 1%;
-  background-color: rgb(0, 0, 0);
 }
 
 form {
@@ -70,6 +70,7 @@ textarea {
 textarea:focus {
   outline-color: rgb(238, 252, 46);
 }
+
 .inputButton {
   width: 100px;
   text-align: center;
@@ -92,7 +93,21 @@ li {
 }
 
 .designAuthor {
-  margin-top: 50px;
+  margin-top: 70px;
   color: white;
   font-size: 13px;
+}
+
+#email {
+  font-weight: bolder;
+}
+
+#backToTop {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: white;
+}
+
+#backToTop:hover {
+  text-decoration: 3px underline rgb(255, 255, 255);
 }

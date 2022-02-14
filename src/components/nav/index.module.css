@@ -5,13 +5,12 @@
   gap: 5%;
   margin: 0 2% 0 2%;
   padding: 1%;
-  /*   color: black;
-  border-bottom: 3px solid black; */
 }
 
-a {
+.navBar a {
   font-family: "Roboto Mono", monospace;
   font-size: 19px;
+  text-decoration: 2px underline rgb(0, 0, 0);
 }
 
 a:hover {

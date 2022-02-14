@@ -2,7 +2,7 @@ import css from "./index.module.css";
 
 function Contact() {
   return (
-    <div className={css.contact}>
+    <div className={css.contact} id="contact">
       <h2 className={css.contactH2}>contact</h2>
       <div className={css.contactWrapper}>
         <div className={css.formWrapper}>
@@ -55,7 +55,10 @@ function Contact() {
             I'm available to grab a coffee and chat! Drop a comment, question,
             concern, or Spotify playlist, and thanks for stopping by!
           </p>
-          <p>You can also email me at kattanaluz@gmail.com.</p>
+          <p>
+            You can also email me at{" "}
+            <span id={css.email}>kattanaluz@gmail.com</span>.
+          </p>
           <ul className={css.icons}>
             <li>
               <a
@@ -89,7 +92,13 @@ function Contact() {
           </ul>
         </div>
       </div>
-      <p className={css.designAuthor}>DESIGNED BY KATTANA LUZ | 2022</p>
+      <a href="#top" id={css.backToTop}>
+        back to the top
+      </a>
+      <p className={css.designAuthor}>
+        {" "}
+        CREATED AND DESIGNED BY KATTANA LUZ | 2022
+      </p>
     </div>
   );
 }
