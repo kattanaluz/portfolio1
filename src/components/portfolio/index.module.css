@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400&display=swap");
 .portfolioWrapper {
-  margin-top: 500px;
+  margin-top: 600px;
   margin-bottom: 100px;
-  background-color: rgb(243, 242, 242);
-  margin-left: 2%;
-  margin-right: 2%;
-  padding: 2%;
-  box-shadow: 5px 6px 33px 0px rgba(89, 89, 89, 0.178);
-  border-radius: 30px;
 }
 
 .portfolioH2 {
@@ -18,7 +12,7 @@
   margin-bottom: 50px;
   text-decoration: 4px underline rgb(238, 252, 46);
   font-size: 30px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .projectsDiv {
@@ -32,7 +26,7 @@
   padding: 2%;
   margin-left: 3%;
   margin-right: 3%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.151);
   border-radius: 50px;
 }
 
@@ -51,11 +45,12 @@
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
+  color: white;
 }
 
 a {
-  color: black;
-  text-decoration: 1px underline solid black;
+  color: rgb(255, 255, 255);
+  text-decoration: 1px underline solid rgb(255, 255, 255);
   font-size: 17px;
 }
 
@@ -63,6 +58,7 @@ a:hover {
   text-decoration: 4px underline rgb(238, 252, 46);
 }
 
-p {
+.portfolioParagraph {
   font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
 }
