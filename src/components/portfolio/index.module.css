@@ -1,20 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400&display=swap");
 .portfolioWrapper {
   margin-top: 500px;
   margin-bottom: 100px;
-  background-color: rgb(238, 252, 46);
+  background-color: rgb(243, 242, 242);
   margin-left: 2%;
   margin-right: 2%;
   padding: 2%;
+  box-shadow: 5px 6px 33px 0px rgba(89, 89, 89, 0.178);
+  border-radius: 30px;
 }
 
-h2 {
-  font-family: "Roboto Mono", monospace;
+.portfolioH2 {
   text-align: center;
+  font-family: "Poppins", sans-serif;
   padding: 5px;
   font-weight: 400;
   margin-bottom: 50px;
-  text-decoration: 4px underline rgb(255, 255, 255);
+  text-decoration: 4px underline rgb(238, 252, 46);
   font-size: 30px;
+  color: black;
 }
 
 .projectsDiv {
@@ -29,6 +33,7 @@ h2 {
   margin-left: 3%;
   margin-right: 3%;
   background-color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 .drinkAppImg {
@@ -44,7 +49,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Poppins", sans-serif;
   font-size: 23px;
 }
 
@@ -56,4 +61,8 @@ a {
 
 a:hover {
   text-decoration: 4px underline rgb(238, 252, 46);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
 }

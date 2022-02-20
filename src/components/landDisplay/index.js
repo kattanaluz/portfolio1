@@ -4,29 +4,13 @@ function LandDisplay() {
   return (
     <div>
       <div className={css.wrapper}>
-        <div className={css.left}>
-          <div className={css.landTextWrapper1}>
-            <span className={css.helloPart1}>
-              <p>Hello, </p>
-            </span>
-            <span className={css.helloPart2}>
-              <p></p>
-            </span>
-            <span className={css.helloPart3}>
-              <p></p>
-            </span>
+        <div className={css.landMessageWrapper}>
+          <div className={css.landMessage}>
+            <h1>
+              Hello, I am <span className={css.name}> Kattana</span>
+            </h1>
           </div>
-        </div>
-        <div className={css.right}>
-          <div className={css.landTextWrapper2}>
-            <span className={css.h1Span}>
-              <h1 className={css.h1FirstPart}>I am</h1>
-              <h1 className={css.h1SecondPart}>Kattana </h1>
-            </span>
-            <span className={css.h2Span}>
-              <h2>web developer bootcamper</h2>
-            </span>
-          </div>
+          <h2>web developer bootcamper</h2>
         </div>
       </div>
     </div>

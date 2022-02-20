@@ -3,13 +3,20 @@ import css from "./index.module.css";
 
 function TechDisplay() {
   return (
-    <div>
-      <h2 className={css.h2Header}>tech information</h2>
+    <div id="about">
+      <h2 className={css.h2Header}>about</h2>
       <div className={css.techDisplayWrapper}>
         <div className={css.textDiv}>
           <p>
-            I was selected to join 200 (out of 1800) other bootcampers at the
-            School of Code full stack programming bootcamp.
+            I am a former brazilian lawyer living in London. I love cooking,
+            cats, and learning new technologies. To follow this passion for
+            tech, I decided to change my career path and start learning how to
+            code.
+          </p>
+          <p>
+            Currently, I am studying to become a web developer. I was selected
+            to join 200 (out of 1800) other bootcampers at the School of Code
+            full stack programming bootcamp.
           </p>
           <p>
             The intensive and immersive sixteen-week programming bootcamp

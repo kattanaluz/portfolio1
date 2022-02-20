@@ -6,9 +6,6 @@ function Nav() {
         <a href="#about">about</a>
       </span>
       <span>
-        <a href="#tech">tech</a>
-      </span>
-      <span>
         <a href="#portfolio">portfolio</a>
       </span>
       <span>

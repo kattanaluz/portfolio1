@@ -4,7 +4,7 @@ import drinkApp from "./drink_app.png";
 function Portfolio() {
   return (
     <div className={css.portfolioWrapper} id="portfolio">
-      <h2>portfolio</h2>
+      <h2 className={css.portfolioH2}>portfolio</h2>
       <div className={css.projectsDiv}>
         <div className={css.drinkApp}>
           <a href="https://stoic-elion-211222.netlify.app/" target="_blank">

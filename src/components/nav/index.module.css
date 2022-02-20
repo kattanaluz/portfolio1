@@ -1,18 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 .navBar {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 5%;
-  margin: 0 2% 0 2%;
-  padding: 1%;
+  gap: 7%;
+  padding: 1.5%;
+  border-bottom: 0.5px solid rgba(20, 20, 20, 0.137);
+  background-color: rgba(235, 235, 235, 0.041);
 }
 
 .navBar a {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Noto Sans", sans-serif;
   font-size: 17px;
-  text-decoration: 2px underline rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
-  text-decoration: 5px underline rgb(238, 252, 46);
+  text-decoration: 5px underline rgb(29, 27, 49);
 }

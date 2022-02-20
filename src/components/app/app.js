@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <Nav />
       <LandDisplay />
-      <About />
       <TechDisplay />
       <Portfolio />
       <Contact />
