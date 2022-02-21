@@ -1,16 +1,20 @@
 import css from "./index.module.css";
+import image from "./logo.png";
 function Nav() {
   return (
     <nav className={css.navBar} id="top">
-      <span>
+      <div className={css.logoDiv}>
+        <img className={css.logo} alt="logo" src={image}></img>
+      </div>
+      <div>
         <a href="#about">about</a>
-      </span>
-      <span>
+      </div>
+      <div>
         <a href="#portfolio">portfolio</a>
-      </span>
-      <span>
+      </div>
+      <div>
         <a href="#contact">contact</a>
-      </span>
+      </div>
     </nav>
   );
 }

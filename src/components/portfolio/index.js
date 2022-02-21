@@ -7,7 +7,11 @@ function Portfolio() {
       <h2 className={css.portfolioH2}>portfolio</h2>
       <div className={css.projectsDiv}>
         <div className={css.drinkApp}>
-          <a href="https://stoic-elion-211222.netlify.app/" target="_blank">
+          <a
+            className={css.imageLink}
+            href="https://stoic-elion-211222.netlify.app/"
+            target="_blank"
+          >
             <img
               className={css.drinkAppImg}
               src={drinkApp}
@@ -16,26 +20,24 @@ function Portfolio() {
           </a>
           <div className={css.drinkAppText}>
             <h3>Drink recipes project</h3>
-            <p className={css.portfolioParagraph}>
-              HTML | CSS | JAVASCRIPT | REACT.JS | API
-            </p>
-            <p className={css.portfolioParagraph}>
+            <p>HTML | CSS | JAVASCRIPT | REACT.JS | API</p>
+            <p>
               The application itself is a single page app where the user can
               search for drink recipes. The application was made using React.js.
               It has a few components and it is using a free API TheCocktailDB
               to fetch the content needed.
             </p>
-            <p className={css.portfolioParagraph}>
+            <p>
               While developing this project, I could practice how to work with
               an API and async function. I also created components, used props
               and developed the user interface.
             </p>
-            <p className={css.portfolioParagraph}>
-              You can check out the project page{" "}
+            <p>
+              You can check out the project page
               <a href="https://stoic-elion-211222.netlify.app/" target="_blank">
                 here
-              </a>{" "}
-              and the gitHub repository{" "}
+              </a>
+              and the gitHub repository
               <a
                 href="https://github.com/kattanaluz/practice-project-drinks-recipe"
                 target="_blank"

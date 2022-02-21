@@ -1,12 +1,19 @@
-.contact {
-  background-color: rgba(0, 0, 0, 0.897);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-top: 0.5px solid rgb(240, 252, 67);
-  height: fit-content;
+.contactH2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
 }
 
 .contactWrapper {
+  margin-top: 10rem;
+  padding-bottom: 3rem;
+  height: fit-content;
+  background-color: #ccd1dd;
+  border-top: 0.5px solid rgb(173, 173, 173);
+}
+
+.contactParagraphsWrapper {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
@@ -17,15 +24,7 @@
   width: 50%;
 }
 
-.contactH2 {
-  color: white;
-  text-decoration: 4px underline rgb(238, 252, 46);
-  padding: 15px;
-}
-
 .contactWrapper p {
-  color: white;
-  font-size: 17px;
   text-align: justify;
   padding-right: 20px;
 }
@@ -37,17 +36,17 @@
 
 form {
   text-align: center;
-  font-family: "Roboto Mono", monospace;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 input {
   width: 500px;
-  font-family: "Roboto Mono", monospace;
   font-size: 13px;
+  font-family: inherit;
   text-align: start;
-  padding: 10px;
-  border: 1px solid black;
+  padding: 15px;
+  border: 0.5px solid rgb(185, 185, 185);
+  border-radius: 5px;
   margin-top: 15px;
 }
 
@@ -57,14 +56,15 @@ input:focus {
 
 textarea {
   width: 500px;
-  font-family: "Roboto Mono", monospace;
   font-size: 13px;
   text-align: start;
-  padding: 10px;
-  border: 1px solid black;
+  padding: 15px;
+  border: 0.5px solid rgb(185, 185, 185);
+  border-radius: 5px;
   margin-top: 15px;
   resize: vertical;
   min-height: 200px;
+  font-family: inherit;
 }
 
 textarea:focus {
@@ -76,38 +76,51 @@ textarea:focus {
   text-align: center;
   padding: 8px;
   border-radius: 30px;
-  background-color: rgb(240, 252, 67);
+  background-color: rgb(236, 236, 236);
   font-size: 15px;
   font-weight: bolder;
+  border: 1px solid rgb(170, 169, 169);
+}
+
+.inputButton:hover {
+  background-color: rgb(240, 252, 67);
 }
 
 .icons {
-  padding: 50px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+li:nth-child(1) {
+  position: fixed;
+  overflow-y: scroll;
+  bottom: 2rem;
+  right: 0.1rem;
+  padding: 0;
+}
+
+li:nth-child(2) {
+  position: fixed;
+  overflow-y: scroll;
+  bottom: 6rem;
+  right: 0.1rem;
+  padding: 0;
+}
+
+.iconsLink {
+}
+
+#designAuthor {
+  margin-top: 3rem;
+  font-size: inherit;
   text-align: center;
-}
-
-li {
-  display: inline-block;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-.designAuthor {
-  margin-top: 70px;
-  color: white;
-  font-size: 13px;
 }
 
 #email {
   font-weight: bolder;
 }
 
-#backToTop {
-  font-family: "Roboto Mono", monospace;
-  font-size: 16px;
-  color: white;
-}
-
 #backToTop:hover {
-  text-decoration: 3px underline rgb(255, 255, 255);
+  text-decoration: 3px underline rgb(238, 252, 46);
 }

@@ -7,10 +7,11 @@ function LandDisplay() {
         <div className={css.landMessageWrapper}>
           <div className={css.landMessage}>
             <h1>
-              Hello, I am <span className={css.name}> Kattana</span>
+              <span className={css.hello}>Hello, </span>
+              <span className={css.name}>I am Kattana</span>
             </h1>
           </div>
-          <h2>web developer bootcamper</h2>
+          <h2 className={css.LandDisplayH3}>web developer bootcamper</h2>
         </div>
       </div>
     </div>

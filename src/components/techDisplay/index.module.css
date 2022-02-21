@@ -1,30 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400&display=swap");
-.h2Header {
-  margin-top: 150px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 30px;
-  font-weight: 500;
-  text-decoration: 4px underline rgb(238, 252, 46);
-  font-size: 30px;
-  color: rgb(255, 255, 255);
+.techDisplayWrapper {
+  margin-top: 10rem;
 }
 
-.techDisplayWrapper {
+.aboutH2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.techParagraphsWrapper {
   display: flex;
   flex-direction: row;
-  height: 0px;
+  background-color: white;
+  padding: 2%;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 .textDiv {
   width: 50%;
   text-align: justify;
-  margin-left: 5%;
+  margin-left: 0;
+  padding: 1rem;
 }
 
 .imgDiv {
-  width: 10%;
+  margin-top: 2.3rem;
 }
 
 .imgTag {
@@ -33,9 +37,17 @@
   border: none;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  font-weight: 350;
-  color: white;
+@media (max-width: 1140px) {
+  .imgDiv {
+    display: none;
+  }
+  .textDiv {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .techParagraphsWrapper {
+    margin: 1%;
+  }
 }

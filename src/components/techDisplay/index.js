@@ -3,9 +3,9 @@ import css from "./index.module.css";
 
 function TechDisplay() {
   return (
-    <div id="about">
-      <h2 className={css.h2Header}>about</h2>
-      <div className={css.techDisplayWrapper}>
+    <div id="about" className={css.techDisplayWrapper}>
+      <h2 className={css.aboutH2}>about</h2>
+      <div className={css.techParagraphsWrapper}>
         <div className={css.textDiv}>
           <p>
             I am a former brazilian lawyer living in London. I love cooking,
