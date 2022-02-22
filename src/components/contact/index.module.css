@@ -3,6 +3,8 @@
   text-align: center;
   padding: 2rem;
   font-weight: 900;
+  text-decoration: 6px underline rgb(238, 252, 46);
+  margin-left: 0;
 }
 
 .contactWrapper {
@@ -16,35 +18,38 @@
 .contactParagraphsWrapper {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-left: 4%;
+  margin-right: 1%;
+  text-align: center;
 }
 
 .contactText {
-  margin-right: 3%;
+  /*   margin-right: 3%; */
   width: 50%;
 }
 
 .contactWrapper p {
-  text-align: justify;
-  padding-right: 20px;
+  /*   text-align: center; */
 }
 
 .formWrapper {
   width: 50%;
   margin-left: 1%;
+  margin-right: 4%;
 }
 
 form {
   text-align: center;
-  font-size: 17px;
+  font-size: 1rem;
+  margin-right: 2rem;
 }
 
 input {
-  width: 500px;
+  width: 100%;
   font-size: 13px;
   font-family: inherit;
   text-align: start;
-  padding: 15px;
+  padding: 10px;
   border: 0.5px solid rgb(185, 185, 185);
   border-radius: 5px;
   margin-top: 15px;
@@ -55,10 +60,10 @@ input:focus {
 }
 
 textarea {
-  width: 500px;
+  width: 100%;
   font-size: 13px;
   text-align: start;
-  padding: 15px;
+  padding: 10px;
   border: 0.5px solid rgb(185, 185, 185);
   border-radius: 5px;
   margin-top: 15px;
@@ -92,25 +97,6 @@ textarea:focus {
   flex-direction: column;
 }
 
-li:nth-child(1) {
-  position: fixed;
-  overflow-y: scroll;
-  bottom: 2rem;
-  right: 0.1rem;
-  padding: 0;
-}
-
-li:nth-child(2) {
-  position: fixed;
-  overflow-y: scroll;
-  bottom: 6rem;
-  right: 0.1rem;
-  padding: 0;
-}
-
-.iconsLink {
-}
-
 #designAuthor {
   margin-top: 3rem;
   font-size: inherit;
@@ -121,6 +107,27 @@ li:nth-child(2) {
   font-weight: bolder;
 }
 
+#backToTop {
+  margin-top: 3rem;
+}
+
 #backToTop:hover {
   text-decoration: 3px underline rgb(238, 252, 46);
+}
+
+@media (max-width: 1050px) {
+  .contactParagraphsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactText {
+    margin-right: 0;
+  }
+  .formWrapper {
+    margin-left: 0;
+  }
+  form {
+    margin-right: 0;
+  }
 }

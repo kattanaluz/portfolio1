@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400&display=swap");
 body {
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: #eef1f7;
   color: rgb(0, 0, 0);
@@ -13,7 +14,6 @@ a {
 }
 
 a:hover {
-  text-decoration: 6px underline rgb(238, 252, 46);
   background-color: rgb(238, 252, 46);
 }
 
@@ -21,12 +21,4 @@ p {
   color: inherit;
   font-size: 1.1rem;
   font-weight: 350;
-}
-
-h2 {
-  font-size: 1rem;
-  margin-top: 14rem;
-  text-align: center;
-  padding: 5px;
-  text-align: center;
 }

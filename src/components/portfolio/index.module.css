@@ -7,6 +7,8 @@
   text-align: center;
   padding: 1rem;
   font-weight: 900;
+  text-decoration: 6px underline rgb(238, 252, 46);
+  margin-left: 0;
 }
 
 .projectsDiv {
@@ -25,10 +27,11 @@
 }
 
 .drinkAppImg {
-  border: 0.5px solid rgb(219, 219, 219);
+  border: 1px solid rgb(219, 219, 219);
   border-radius: 20px;
-  width: 450px;
-  margin-top: 30px;
+  width: 25rem;
+  height: auto;
+  margin-top: 1.5rem;
 }
 
 .drinkAppText {
@@ -36,6 +39,39 @@
   text-align: justify;
 }
 
+.imageLink {
+  background-color: none;
+  border-radius: 50%;
+  border: 0px;
+}
+
 .imageLink:hover {
   background-color: inherit;
+}
+
+@media (max-width: 930px) {
+  .drinkApp {
+    display: flex;
+    flex-direction: column;
+  }
+  .drinkAppImg {
+    width: 30rem;
+    height: auto;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .drinkAppImg {
+    width: 20rem;
+    height: auto;
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .drinkAppImg {
+    width: 15rem;
+    height: auto;
+    margin-top: 1.5rem;
+  }
 }

@@ -6,14 +6,16 @@ function Nav() {
       <div className={css.logoDiv}>
         <img className={css.logo} alt="logo" src={image}></img>
       </div>
-      <div>
-        <a href="#about">about</a>
-      </div>
-      <div>
-        <a href="#portfolio">portfolio</a>
-      </div>
-      <div>
-        <a href="#contact">contact</a>
+      <div className={css.navElements}>
+        <div>
+          <a href="#about">about</a>
+        </div>
+        <div>
+          <a href="#portfolio">portfolio</a>
+        </div>
+        <div>
+          <a href="#contact">contact</a>
+        </div>
       </div>
     </nav>
   );

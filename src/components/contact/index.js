@@ -6,6 +6,22 @@ function Contact() {
     <div className={css.contactWrapper} id="contact">
       <h2 className={css.contactH2}>contact</h2>
       <div className={css.contactParagraphsWrapper}>
+        <div className={css.contactText}>
+          <p>
+            If you liked what you see here and you are just curious about what
+            we can do working together, feel free to reach out. I would love to
+            receive new project idea.
+          </p>
+          <p>
+            I'm available to grab a coffee and chat! Drop a comment, question,
+            concern, or Spotify playlist, and thanks for stopping by!
+          </p>
+          <p>
+            You can also email me at{" "}
+            <span id={css.email}>kattanaluz@gmail.com</span>.
+          </p>
+          <Icons />
+        </div>
         <div className={css.formWrapper}>
           <form
             action="https://formsubmit.co/kattanaluz@gmail.com"
@@ -45,22 +61,6 @@ function Contact() {
               value="send"
             ></input>
           </form>
-        </div>
-        <div className={css.contactText}>
-          <p>
-            If you liked what you see here and you are just curious about what
-            we can do working together, feel free to reach out. I would love to
-            receive new project idea.
-          </p>
-          <p>
-            I'm available to grab a coffee and chat! Drop a comment, question,
-            concern, or Spotify playlist, and thanks for stopping by!
-          </p>
-          <p>
-            You can also email me at{" "}
-            <span id={css.email}>kattanaluz@gmail.com</span>.
-          </p>
-          <Icons />
         </div>
       </div>
       <a href="#top" id={css.backToTop}>
