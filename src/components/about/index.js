@@ -1,11 +1,11 @@
 import image from "./girl.png";
 import css from "./index.module.css";
 
-function TechDisplay() {
+function About() {
   return (
-    <div id="about" className={css.techDisplayWrapper}>
+    <div id="about" className={css.AboutWrapper}>
       <h2 className={css.aboutH2}>about</h2>
-      <div className={css.techParagraphsWrapper}>
+      <div className={css.aboutParagraphsWrapper}>
         <div className={css.textDiv}>
           <p>
             I am a former brazilian lawyer living in London. I love cooking,
@@ -37,4 +37,4 @@ function TechDisplay() {
     </div>
   );
 }
-export default TechDisplay;
+export default About;
