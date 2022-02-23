@@ -1,4 +1,6 @@
 import css from "./landDisplay.module.css";
+import { FaChevronDown } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 function LandDisplay() {
   return (
@@ -17,6 +19,14 @@ function LandDisplay() {
             <span className={css.angleBracket}>/&gt;</span>
           </h2>
         </div>
+      </div>
+      <div /* className={css.downIcon} */>
+        <IconContext.Provider value={{ className: css.downIcon }}>
+          <FaChevronDown
+          /* className={css.downIcon}  */
+          /*  size="2em" */
+          />
+        </IconContext.Provider>
       </div>
     </div>
   );
