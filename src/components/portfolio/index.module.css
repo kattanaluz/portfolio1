@@ -36,10 +36,13 @@
   border: 0px;
 }
 
-.imageLink:hover {
-  background-color: inherit;
+.projectLinks {
+  font-weight: bolder;
 }
 
+.projectLinks:hover {
+  background-color: rgb(238, 252, 46);
+}
 @media (max-width: 930px) {
   .drinkApp {
     display: flex;

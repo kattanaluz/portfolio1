@@ -3,7 +3,7 @@ import css from "./index.module.css";
 
 function About() {
   return (
-    <div id="about" className={css.AboutWrapper}>
+    <div id="about" className={css.aboutWrapper}>
       <h3>about me</h3>
       <div className={css.aboutParagraphsWrapper}>
         <div className={css.textDiv}>

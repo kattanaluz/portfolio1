@@ -1,4 +1,5 @@
 import css from "./index.module.css";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Icons() {
   return (
@@ -7,12 +8,17 @@ export default function Icons() {
         <a
           href="https://www.linkedin.com/in/kattana-luz-6b1000124/"
           target="_blank"
+          className={css.linkLinkdinIcon}
         >
-          <div class="fab fa-linkedin"></div>
+          <AiFillLinkedin size="2.5rem" />
         </a>
         <div className={css.gitIcon}>
-          <a href="https://github.com/kattanaluz" target="_blank">
-            <div class="fab fa-github-square"></div>
+          <a
+            className={css.linkGitIcon}
+            href="https://github.com/kattanaluz"
+            target="_blank"
+          >
+            <AiFillGithub size="2.5rem" />
           </a>
         </div>
       </div>

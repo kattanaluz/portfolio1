@@ -22,3 +22,6 @@
   display: inherit;
   gap: 3rem;
 }
+nav a:hover {
+  background-color: rgb(238, 252, 46);
+}

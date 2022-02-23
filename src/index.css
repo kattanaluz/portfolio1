@@ -13,10 +13,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: rgb(238, 252, 46);
-}
-
 p {
   color: inherit;
   font-size: 1.1rem;
@@ -31,6 +27,16 @@ h3 {
   text-decoration: 6px underline rgb(238, 252, 46);
 }
 
+h4 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 930px) {
+  h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   a {
     font-size: 0.9rem;
@@ -41,6 +47,10 @@ h3 {
   h3 {
     font-size: 1.6rem;
   }
+  h4 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 300px) {
@@ -49,5 +59,8 @@ h3 {
   }
   h3 {
     font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1rem;
   }
 }

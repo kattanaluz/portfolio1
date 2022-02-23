@@ -33,12 +33,17 @@ function Portfolio() {
               and developed the user interface.
             </p>
             <p>
-              You can check out the project page
-              <a href="https://stoic-elion-211222.netlify.app/" target="_blank">
-                here
-              </a>
-              and the gitHub repository
+              You can check out the project page{" "}
               <a
+                className={css.projectLinks}
+                href="https://stoic-elion-211222.netlify.app/"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              and the gitHub repository{" "}
+              <a
+                className={css.projectLinks}
                 href="https://github.com/kattanaluz/practice-project-drinks-recipe"
                 target="_blank"
               >

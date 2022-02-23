@@ -1,5 +1,5 @@
-.techDisplayWrapper {
-  margin-top: 10rem;
+.aboutWrapper {
+  margin-top: 5rem;
 }
 
 .aboutParagraphsWrapper {
@@ -14,7 +14,7 @@
 }
 
 .textDiv {
-  width: 50%;
+  width: 60%;
   text-align: justify;
   margin-left: 0;
   padding: 1rem;
@@ -25,22 +25,60 @@
 }
 
 .imgTag {
-  width: 400px;
-  margin-left: 50px;
-  border: none;
+  width: 20rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (min-width: 1950px) {
+  .imgTag {
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .textDiv {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1140px) {
-  .imgDiv {
-    display: none;
+  .aboutParagraphsWrapper {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .textDiv {
-    width: 100%;
+    width: 95%;
+  }
+}
+@media (max-width: 900px) {
+  .aboutWrapper {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutWrapper {
+    margin-top: 1rem;
   }
 }
 
 @media (max-width: 600px) {
   .techParagraphsWrapper {
     margin: 1%;
+  }
+  .textDiv {
+    width: 90%;
+  }
+  .imgTag {
+    width: 14rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .imgTag {
+    width: 9rem;
+    height: auto;
   }
 }

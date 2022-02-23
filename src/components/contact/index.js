@@ -63,9 +63,9 @@ function Contact() {
           </form>
         </div>
       </div>
-      <a href="#top" id={css.backToTop}>
-        back to the top
-      </a>
+      <div className={css.backToTop}>
+        <a href="#top">back to the top</a>
+      </div>
       <p id={css.designAuthor}>CREATED AND DESIGNED BY KATTANA LUZ | 2022</p>
     </div>
   );
