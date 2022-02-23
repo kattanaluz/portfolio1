@@ -4,7 +4,7 @@ import drinkApp from "./drink_app.png";
 function Portfolio() {
   return (
     <div className={css.portfolioWrapper} id="portfolio">
-      <h2 className={css.portfolioH2}>portfolio</h2>
+      <h3>projects I've built</h3>
       <div className={css.projectsDiv}>
         <div className={css.drinkApp}>
           <a
@@ -19,7 +19,7 @@ function Portfolio() {
             />
           </a>
           <div className={css.drinkAppText}>
-            <h3>Drink recipes project</h3>
+            <h4>Drink recipes project</h4>
             <p>HTML | CSS | JAVASCRIPT | REACT.JS | API</p>
             <p>
               The application itself is a single page app where the user can

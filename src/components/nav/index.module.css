@@ -22,8 +22,3 @@
   display: inherit;
   gap: 3rem;
 }
-@media (max-width: 630px) {
-  nav {
-    width: 100%;
-  }
-}

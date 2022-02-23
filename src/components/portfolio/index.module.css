@@ -2,15 +2,6 @@
   margin-top: 10rem;
 }
 
-.portfolioH2 {
-  font-size: 2rem;
-  text-align: center;
-  padding: 1rem;
-  font-weight: 900;
-  text-decoration: 6px underline rgb(238, 252, 46);
-  margin-left: 0;
-}
-
 .projectsDiv {
   display: flex;
   flex-direction: column;
@@ -59,6 +50,10 @@
     height: auto;
     margin-top: 1.5rem;
   }
+  .drinkAppText {
+    margin: 0;
+    padding: 0.5rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -71,6 +66,13 @@
 @media (max-width: 400px) {
   .drinkAppImg {
     width: 15rem;
+    height: auto;
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 290px) {
+  .drinkAppImg {
+    width: 80%;
     height: auto;
     margin-top: 1.5rem;
   }

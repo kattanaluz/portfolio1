@@ -22,3 +22,32 @@ p {
   font-size: 1.1rem;
   font-weight: 350;
 }
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
+  text-decoration: 6px underline rgb(238, 252, 46);
+}
+
+@media (max-width: 500px) {
+  a {
+    font-size: 0.9rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 300px) {
+  p {
+    font-size: 0.7rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+}

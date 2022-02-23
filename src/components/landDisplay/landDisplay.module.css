@@ -15,9 +15,8 @@ h1 {
   margin-bottom: 0rem;
 }
 
-h2 {
+.landDisplayH2 {
   text-align: start;
-  font-family: "Poppins", sans-serif;
   margin-left: 8rem;
   font-size: 1.3rem;
   margin-top: 1em;
@@ -36,21 +35,13 @@ h2 {
   text-shadow: 0.2rem 0.2rem rgb(235, 250, 29);
 }
 
-/* @media (max-width: 930px) {
-  .drinkApp {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
- */
 @media (max-width: 930px) {
   h1 {
     margin-top: 4rem;
     margin-left: 4rem;
     font-size: 2rem;
   }
-  h2 {
+  .landDisplayH2 {
     margin-left: 4rem;
     font-size: 1rem;
     margin-top: 0em;
@@ -67,7 +58,7 @@ h2 {
     font-size: 3rem;
   }
 
-  h2 {
+  .landDisplayH2 {
     margin-left: 2rem;
     font-size: 1rem;
     margin-top: 0;
@@ -84,7 +75,7 @@ h2 {
     font-size: 2.1rem;
   }
 
-  h2 {
+  .landDisplayH2 {
     margin-left: 2rem;
     font-size: 0.8rem;
     margin-top: 0;

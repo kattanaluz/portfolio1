@@ -4,7 +4,7 @@ import css from "./index.module.css";
 function Contact() {
   return (
     <div className={css.contactWrapper} id="contact">
-      <h2 className={css.contactH2}>contact</h2>
+      <h3>get in touch</h3>
       <div className={css.contactParagraphsWrapper}>
         <div className={css.contactText}>
           <p>

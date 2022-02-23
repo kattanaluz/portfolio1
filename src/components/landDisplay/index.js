@@ -11,7 +11,7 @@ function LandDisplay() {
               <span className={css.name}>Kattana Luz.</span>
             </h1>
           </div>
-          <h2>
+          <h2 className={css.landDisplayH2}>
             <span className={css.angleBracket}>&lt;</span> I am a former lawyer
             who is studding to become a web developer
             <span className={css.angleBracket}>/&gt;</span>
