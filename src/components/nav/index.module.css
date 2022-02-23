@@ -5,23 +5,32 @@
   justify-content: flex-end;
   gap: 3rem;
   padding: 0.7rem;
+  padding-right: 1.5rem;
   border-bottom: 0.5px solid #63646670;
   box-shadow: -1px 13px 14px -18px rgba(147, 149, 150, 0.445);
 }
 
 .logoDiv {
+  position: absolute;
   float: left;
+  margin: 0.7rem 0 0 2rem;
 }
 
 .logo {
-  height: 1.3rem;
-  float: left;
+  height: 1.5rem;
 }
 
 .navElements {
   display: inherit;
   gap: 3rem;
 }
+
 nav a:hover {
   background-color: rgb(238, 252, 46);
+}
+
+@media (max-width: 390px) {
+  .logoDiv {
+    display: none;
+  }
 }
