@@ -5,11 +5,6 @@
 .projectsDiv {
   display: flex;
   flex-direction: column;
-}
-
-.drinkApp {
-  display: flex;
-  flex-direction: row;
   padding: 2%;
   margin-left: 5%;
   margin-right: 5%;
@@ -17,15 +12,33 @@
   border-radius: 50px;
 }
 
-.drinkAppImg {
+.unitProjectDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.unitProjectDiv:nth-child(2) {
+  margin-top: 3rem;
+}
+
+.technologies {
+  text-align: center;
+}
+
+.drinkApp {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectImage {
   border: 1px solid rgb(219, 219, 219);
   border-radius: 20px;
   width: 25rem;
   height: auto;
-  margin-top: 1.5rem;
+  margin-top: 5rem;
 }
 
-.drinkAppText {
+.projectText {
   margin-left: 20px;
   text-align: justify;
 }
@@ -44,37 +57,37 @@
   background-color: rgb(238, 252, 46);
 }
 @media (max-width: 930px) {
-  .drinkApp {
+  .unitProjectDiv {
     display: flex;
     flex-direction: column;
   }
-  .drinkAppImg {
+  .projectImage {
     width: 30rem;
     height: auto;
     margin-top: 1.5rem;
   }
-  .drinkAppText {
+  .projectText {
     margin: 0;
     padding: 0.5rem;
   }
 }
 
 @media (max-width: 600px) {
-  .drinkAppImg {
+  .projectImage {
     width: 20rem;
     height: auto;
     margin-top: 1.5rem;
   }
 }
 @media (max-width: 400px) {
-  .drinkAppImg {
+  .projectImage {
     width: 15rem;
     height: auto;
     margin-top: 1.5rem;
   }
 }
 @media (max-width: 290px) {
-  .drinkAppImg {
+  .projectImage {
     width: 80%;
     height: auto;
     margin-top: 1.5rem;

@@ -20,12 +20,9 @@ function LandDisplay() {
           </h2>
         </div>
       </div>
-      <div /* className={css.downIcon} */>
+      <div>
         <IconContext.Provider value={{ className: css.downIcon }}>
-          <FaChevronDown
-          /* className={css.downIcon}  */
-          /*  size="2em" */
-          />
+          <FaChevronDown />
         </IconContext.Provider>
       </div>
     </div>
