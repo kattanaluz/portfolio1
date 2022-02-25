@@ -15,7 +15,7 @@ function LandDisplay() {
           </div>
           <h2 className={css.landDisplayH2}>
             <span className={css.angleBracket}>&lt;</span> I am a former lawyer
-            who is studding to become a web developer
+            who is studying to become a web developer
             <span className={css.angleBracket}>/&gt;</span>
           </h2>
         </div>
