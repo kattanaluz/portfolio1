@@ -20,7 +20,7 @@ function Portfolio() {
           h4Text={"Drinks Recipes"}
           technologiesClass={css.technologies}
           technologiesText={"HTML | CSS | JAVASCRIPT | REACT"}
-          projectText={` The application itself is a single page app where the user can
+          projectText={` The application itself is a single-page application where the user can
           search for drink recipes. The application was made using CSS, vanilla javaScript,
           and React.js. I also used a free API (TheCocktailDB) to fetch the content needed.`}
           projectLinksClass={css.projectLinks}
@@ -40,9 +40,8 @@ function Portfolio() {
           h4Text={"Noughts and Crosses"}
           technologiesClass={css.technologies}
           technologiesText={"HTML | CSS | JAVASCRIPT | REACT"}
-          projectText={`The project is a single page web site where the user can play
-            Noughts and Crosses game. The application was built using CSS,
-            vanilla JavaScript and React.js.`}
+          projectText={`The project is a single-page website where the user can play the Noughts and Crosses game. 
+          The application was built using CSS, vanilla JavaScript, and React.js.`}
           projectLinksClass={css.projectLinks}
           pageLink={"https://it-crowd-quiz.netlify.app/"}
           gitLink={"https://github.com/kattanaluz/IT-crowd-quiz"}
@@ -59,7 +58,7 @@ function Portfolio() {
           h4Text={"IT Crowd Quiz"}
           technologiesClass={css.technologies}
           technologiesText={"HTML | CSS | JAVASCRIPT"}
-          projectText={`The project is a single page trivia quiz.
+          projectText={`The project is a single-page trivia quiz game.
           I built this project in the first month of learning JavaScript at School of Code Bootcamp.`}
           projectLinksClass={css.projectLinks}
           pageLink={"https://it-crowd-quiz.netlify.app/"}
