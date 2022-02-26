@@ -21,6 +21,9 @@
   margin-top: 3rem;
 }
 
+.unitProjectDiv:nth-child(3) {
+  margin-top: 3rem;
+}
 .technologies {
   text-align: center;
 }

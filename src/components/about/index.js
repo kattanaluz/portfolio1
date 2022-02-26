@@ -16,18 +16,17 @@ function About() {
           <p>
             Currently, I am studying to become a web developer. I was selected
             to join 200 (out of 1800) other bootcampers at the School of Code
-            full stack programming bootcamp.
+            full stack web developer bootcamp.
           </p>
           <p>
             The intensive and immersive sixteen-week programming bootcamp
             focuses on exposing the trainees to a range of different industry
-            best practices and concepts, such as test driven development, agile
-            working methodologies, pair programming, and creative problem
-            solving.
+            best practices and concepts, Agile working methodologies, pair
+            programming, and creative problem solving.
           </p>
           <p>
-            I've been learning HTML5, CSS3, JavaScript, Node.js, React, Git and
-            GitHub, PostgreSQL, Express.js, TDD, Jest, Next.js.
+            I have been learning HTML5, CSS3, JavaScript, Node.js, React, Git
+            and GitHub, PostgreSQL, Express.js, MongoDB, and unit testing.
           </p>
         </div>
         <div className={css.imgDiv}>
