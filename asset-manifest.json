@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio1/static/css/main.a313081b.css",
-    "main.js": "/portfolio1/static/js/main.ce3b1f65.js",
+    "main.css": "/portfolio1/static/css/main.5cf72694.css",
+    "main.js": "/portfolio1/static/js/main.e96b7a2a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio1/static/js/787.1ed0c42c.chunk.js",
     "static/media/drink_app.png": "/portfolio1/static/media/drink_app.05ce34e306a73859eb02.png",
     "static/media/it_crowd_quiz_app.png": "/portfolio1/static/media/it_crowd_quiz_app.b0920cb71e86d42c9c61.png",
+    "static/media/noughts_and_crosses_app.png": "/portfolio1/static/media/noughts_and_crosses_app.c46747899d5c4d480662.png",
     "static/media/girl.png": "/portfolio1/static/media/girl.db768cddfe6a3fd45c9a.png",
     "static/media/logo.png": "/portfolio1/static/media/logo.b426f4eb7f0dced62f58.png",
     "index.html": "/portfolio1/index.html",
-    "main.a313081b.css.map": "/portfolio1/static/css/main.a313081b.css.map",
-    "main.ce3b1f65.js.map": "/portfolio1/static/js/main.ce3b1f65.js.map",
+    "main.5cf72694.css.map": "/portfolio1/static/css/main.5cf72694.css.map",
+    "main.e96b7a2a.js.map": "/portfolio1/static/js/main.e96b7a2a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio1/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a313081b.css",
-    "static/js/main.ce3b1f65.js"
+    "static/css/main.5cf72694.css",
+    "static/js/main.e96b7a2a.js"
   ]
 }
