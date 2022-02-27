@@ -12,7 +12,7 @@ function Portfolio() {
         <SingleProject
           unitProjectDivClass={css.unitProjectDiv}
           aTagClass={css.imageLink}
-          href={"https://stoic-elion-211222.netlify.app/"}
+          href={"https://drink-recipes-finder.netlify.app/"}
           imgTagClass={css.projectImage}
           src={drinkAppImage}
           alt={"Drinks Recipe website"}
