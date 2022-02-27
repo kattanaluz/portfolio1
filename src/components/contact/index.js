@@ -8,9 +8,9 @@ function Contact() {
       <div className={css.contactParagraphsWrapper}>
         <div className={css.contactText}>
           <p>
-            If you liked what you see here and you are just curious about what
-            we can do working together, feel free to reach out. I would love to
-            receive new project idea.
+            If you liked what you see here and you are curious about what we can
+            do working together, feel free to reach out. I would love to receive
+            new project ideas.
           </p>
           <p>
             I'm available to grab a coffee and chat! Drop a comment, question,

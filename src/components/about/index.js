@@ -8,7 +8,7 @@ function About() {
       <div className={css.aboutParagraphsWrapper}>
         <div className={css.textDiv}>
           <p>
-            I am a former brazilian lawyer living in London. I love cooking,
+            I am a former Brazilian lawyer living in London. I love cooking,
             cats, and learning new technologies. To follow this passion for
             tech, I decided to change my career path and start learning how to
             code.
@@ -22,7 +22,7 @@ function About() {
             The intensive and immersive sixteen-week programming bootcamp
             focuses on exposing the trainees to a range of different industry
             best practices and concepts, Agile working methodologies, pair
-            programming, and creative problem solving.
+            programming, and creative problem-solving.
           </p>
           <p>
             I have been learning HTML5, CSS3, JavaScript, Node.js, React, Git
