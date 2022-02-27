@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio1/static/css/main.5cf72694.css",
-    "main.js": "/portfolio1/static/js/main.c85ffeab.js",
+    "main.js": "/portfolio1/static/js/main.b65900cc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio1/static/js/787.1ed0c42c.chunk.js",
-    "static/media/drink_app.png": "/portfolio1/static/media/drink_app.05ce34e306a73859eb02.png",
+    "static/media/drink_app.png": "/portfolio1/static/media/drink_app.2ae8bb037a6c130f682a.png",
     "static/media/it_crowd_quiz_app.png": "/portfolio1/static/media/it_crowd_quiz_app.b0920cb71e86d42c9c61.png",
-    "static/media/noughts_and_crosses_app.png": "/portfolio1/static/media/noughts_and_crosses_app.c46747899d5c4d480662.png",
+    "static/media/noughts_and_crosses_app.png": "/portfolio1/static/media/noughts_and_crosses_app.acf194a9fc4fbe338bbf.png",
     "static/media/girl.png": "/portfolio1/static/media/girl.db768cddfe6a3fd45c9a.png",
     "static/media/logo.png": "/portfolio1/static/media/logo.b426f4eb7f0dced62f58.png",
     "index.html": "/portfolio1/index.html",
     "main.5cf72694.css.map": "/portfolio1/static/css/main.5cf72694.css.map",
-    "main.c85ffeab.js.map": "/portfolio1/static/js/main.c85ffeab.js.map",
+    "main.b65900cc.js.map": "/portfolio1/static/js/main.b65900cc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio1/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf72694.css",
-    "static/js/main.c85ffeab.js"
+    "static/js/main.b65900cc.js"
   ]
 }
