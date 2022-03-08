@@ -13,7 +13,7 @@ function Contact() {
             new project ideas.
           </p>
           <p>
-            I'm available to grab a coffee and chat! Drop a comment, question,
+            I am available to grab a coffee and chat! Drop a comment, question,
             concern, or Spotify playlist, and thanks for stopping by!
           </p>
           <p>
