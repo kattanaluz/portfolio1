@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 .wrapper {
   height: 32rem;
   width: auto;
@@ -8,37 +8,33 @@
 h1 {
   text-align: start;
   font-family: "Poppins", sans-serif;
-  padding-top: 8.5rem;
+  padding-top: 5.5rem;
   margin-top: 4rem;
   margin-left: 8rem;
-  font-size: 2.3rem;
   margin-bottom: 0rem;
 }
-
-.landDisplayH2 {
-  text-align: start;
-  margin-left: 8rem;
-  font-size: 1.3rem;
-  margin-top: 1em;
+.hello {
+  display: block;
+  text-shadow: 0.2rem 0.1rem rgb(238, 252, 46);
+  font-weight: bolder;
+  font-size: 5rem;
 }
-
 .name {
   display: block;
   text-shadow: 0.2rem 0.1rem rgb(238, 252, 46);
   font-weight: bolder;
   font-size: 5rem;
 }
-
-.angleBracket {
+.landDisplayH2 {
+  text-align: start;
+  margin-left: 8rem;
   font-size: 1.4rem;
-  font-weight: bolder;
-  text-shadow: 0.2rem 0.2rem rgb(235, 250, 29);
+  margin-top: 1rem;
+  font-weight: 500;
 }
-
 .downIcon {
   font-size: 1.8rem;
 }
-
 .downIcon {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
@@ -83,6 +79,9 @@ h1 {
     font-size: 1.5rem;
     margin-left: 2rem;
   }
+  .hello {
+    font-size: 3rem;
+  }
   .name {
     font-size: 3rem;
   }
@@ -114,6 +113,9 @@ h1 {
     margin-top: 2rem;
     font-size: 1.1rem;
     margin-left: 2rem;
+  }
+  .hello {
+    font-size: 2.1rem;
   }
   .name {
     font-size: 2.1rem;
